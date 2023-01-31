@@ -1,6 +1,8 @@
 <?php
+
 $db = mysqli_connect('localhost','root','','webspp');
 if(!$db){
-    throw new Exception("Database gagal terkoneksi", 1);
+    throw new Exception("Daabase gagal terdeteksi",1);
 }
+
 ?>
